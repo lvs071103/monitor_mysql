@@ -1,11 +1,21 @@
 JackdeMacBook-Pro:scripts jack$ python monitor_mysql.py qps --host localhost --user root --password LVS@071103 --port 3306
+
 30836
+
 JackdeMacBook-Pro:scripts jack$ python monitor_mysql.py tps --host localhost --user root --password LVS@071103 --port 3306
+
 92
+
+
 JackdeMacBook-Pro:scripts jack$ python monitor_mysql.py get_some_status --host localhost --user root --password LVS@071103 --port 3306 --key Innodb_buffer_pool_reads
+
 637
+
+
 JackdeMacBook-Pro:scripts jack$ python monitor_mysql.py innodb_buffer_read_hit_ratio --host localhost --user root --password LVS@071103 --port 3306
+
 99.9321566723
+
 
 $ python monitor_mysql.py --help
 Usage: monitor_mysql.py Actions [options] 
