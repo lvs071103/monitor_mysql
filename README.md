@@ -1,3 +1,4 @@
+<pre>
 JackdeMacBook-Pro:scripts jack$ python monitor_mysql.py qps --host localhost --user root --password LVS@071103 --port 3306
 30836
 
@@ -27,3 +28,4 @@ Options:
     -p PASSWORD, --password=PASSWORD connect mysql password
     -P PORT, --port=PORT  mysql port
     -k KEY, --key=KEY     get some key status
+</pre>
